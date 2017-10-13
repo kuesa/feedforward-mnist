@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 import random
 import math
 from mnist import MNIST
@@ -31,7 +31,7 @@ def makeY(inp):
 	oof[0, inp] = 1
 	return oof
 
-mndata = MNIST('data/')
+mndata = MNIST('./data/')
 images, labels = mndata.load_training()
 
 np.random.seed(1)
@@ -61,10 +61,10 @@ for j in range(1000000):
 
 	#archaic error calculation
 	#for i in range(10):
-	#	if(np.argmax(l2) == i): 
+	#	if(np.argmax(l2) == i):
 	#		total_error += (1-l2[i])
 	#		l2_error[i] = (1-l2[i])
-	#	else: 
+	#	else:
 	#		total_error += l2[i]
 	#		l2_error[i] = l2[i]
 
