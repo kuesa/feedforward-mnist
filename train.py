@@ -31,7 +31,7 @@ def makeY(inp):
 	oof[0, inp] = 1
 	return oof
 
-mndata = MNIST('D:/Programming/ML/MNIST Network 2017/data/')
+mndata = MNIST('data/')
 images, labels = mndata.load_training()
 
 np.random.seed(1)
