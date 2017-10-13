@@ -2,8 +2,11 @@
 A feedforward neural network built to parse the MNIST data set
 
 Dependencies:
+
 Python3
+
 pip install numpy opencv-python python-mnist 
+
 
 You'll also need to download the MNIST dataset and store it in /data/
 
