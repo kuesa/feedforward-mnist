@@ -14,7 +14,7 @@ def makeY(inp):
 	return oof
 
 #our lovely dataset
-mndata = MNIST('./data/')
+mndata = MNIST('data/')
 images, labels = mndata.load_testing()
 
 #load synapse values from training
