@@ -1,7 +1,7 @@
 # feedforward-mnist
 A feedforward neural network built to parse the MNIST data set
 
-##Install dependencies:
+## Install dependencies:
 
 python3
 python3-pip
@@ -10,9 +10,15 @@ python3-pip
 pip3 install numpy opencv-python python-mnist
 ```
 
+## Run:
+
+```
+python3 train.py
+```
+
 ---
 
-Current Goals:
+## Current Goals:
 
 Add biases! -> there are currently no biases implemented in the code
 
